@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Práctica de despliegue continuo con GitHub Actions y Surge.">
+    <title>Mi primera página en Surge</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, sans-serif;
+        color: #172554;
+        background: #eff6ff;
+      }
+
+      body {
+        box-sizing: border-box;
+        display: grid;
+        min-height: 100vh;
+        margin: 0;
+        padding: 2rem;
+        place-items: center;
+      }
+
+      main {
+        max-width: 38rem;
+        padding: 3rem;
+        border: 1px solid #bfdbfe;
+        border-radius: 1.25rem;
+        background: white;
+        box-shadow: 0 1rem 3rem #17255412;
+      }
+
+      h1 {
+        margin-top: 0;
+        color: #1d4ed8;
+      }
+
+      p {
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>¡Hola, Surge!</h1>
+      <p>Esta página se despliega automáticamente cuando se hace push a la rama <code>main</code>.</p>
+      <p>GitHub Actions y Surge mantienen el sitio actualizado con cada cambio.</p>
+    </main>
+  </body>
+</html>
